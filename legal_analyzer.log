@@ -492,3 +492,5 @@ TypeError: extract_text_from_pdf_with_openai() takes 1 positional argument but 2
 2025-10-03 16:13:30,884 - __main__ - INFO - Analysis completed, moving to analysis stage
 2025-10-03 16:13:30,928 - __main__ - INFO - Using OpenAI v1.0+ client
 2025-10-03 16:13:30,928 - __main__ - INFO - Application started - OpenAI API key configured
+2025-10-03 17:09:18,545 - __main__ - INFO - Using OpenAI v1.0+ client
+2025-10-03 17:09:18,545 - __main__ - INFO - Application started - OpenAI API key configured
