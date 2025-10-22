@@ -494,3 +494,37 @@ TypeError: extract_text_from_pdf_with_openai() takes 1 positional argument but 2
 2025-10-03 16:13:30,928 - __main__ - INFO - Application started - OpenAI API key configured
 2025-10-03 17:09:18,545 - __main__ - INFO - Using OpenAI v1.0+ client
 2025-10-03 17:09:18,545 - __main__ - INFO - Application started - OpenAI API key configured
+2025-10-22 16:54:17,557 - __main__ - INFO - Using OpenAI v1.0+ client
+2025-10-22 16:54:17,558 - __main__ - INFO - Application started - OpenAI API key configured
+2025-10-22 16:58:45,512 - __main__ - INFO - Using OpenAI v1.0+ client
+2025-10-22 16:58:45,512 - __main__ - INFO - Application started - OpenAI API key configured
+2025-10-22 16:58:53,821 - __main__ - INFO - Using OpenAI v1.0+ client
+2025-10-22 16:58:53,821 - __main__ - INFO - Application started - OpenAI API key configured
+2025-10-22 16:58:53,822 - __main__ - INFO - File uploaded: Grethena Temporary Offer Letter - Parth.pdf, size: 490244, type: application/pdf
+2025-10-22 16:58:53,823 - __main__ - INFO - Starting PDF text extraction
+2025-10-22 16:58:53,842 - __main__ - INFO - Extracted text from PDF page 1: 2047 characters
+2025-10-22 16:58:53,847 - __main__ - INFO - Extracted text from PDF page 2: 3444 characters
+2025-10-22 16:58:53,851 - __main__ - INFO - Extracted text from PDF page 3: 3627 characters
+2025-10-22 16:58:53,854 - __main__ - INFO - Extracted text from PDF page 4: 2522 characters
+2025-10-22 16:58:53,855 - __main__ - INFO - Extracted text from PDF page 5: 185 characters
+2025-10-22 16:58:53,855 - __main__ - INFO - Successfully extracted text from PDF: 11905 characters
+2025-10-22 16:58:53,856 - __main__ - INFO - Text extraction successful: 11905 characters
+2025-10-22 16:58:57,187 - __main__ - INFO - Using OpenAI v1.0+ client
+2025-10-22 16:58:57,187 - __main__ - INFO - Application started - OpenAI API key configured
+2025-10-22 16:58:57,189 - __main__ - INFO - File uploaded: Grethena Temporary Offer Letter - Parth.pdf, size: 490244, type: application/pdf
+2025-10-22 16:58:57,190 - __main__ - INFO - Starting PDF text extraction
+2025-10-22 16:58:57,205 - __main__ - INFO - Extracted text from PDF page 1: 2047 characters
+2025-10-22 16:58:57,210 - __main__ - INFO - Extracted text from PDF page 2: 3444 characters
+2025-10-22 16:58:57,214 - __main__ - INFO - Extracted text from PDF page 3: 3627 characters
+2025-10-22 16:58:57,218 - __main__ - INFO - Extracted text from PDF page 4: 2522 characters
+2025-10-22 16:58:57,218 - __main__ - INFO - Extracted text from PDF page 5: 185 characters
+2025-10-22 16:58:57,219 - __main__ - INFO - Successfully extracted text from PDF: 11905 characters
+2025-10-22 16:58:57,219 - __main__ - INFO - Text extraction successful: 11905 characters
+2025-10-22 16:58:57,220 - __main__ - INFO - Starting document analysis, text length: 11905 characters
+2025-10-22 16:58:57,220 - __main__ - INFO - Sending document to OpenAI for analysis
+2025-10-22 16:59:09,233 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 16:59:09,250 - __main__ - INFO - Received response from OpenAI, parsing JSON
+2025-10-22 16:59:09,250 - __main__ - INFO - Document analysis completed successfully
+2025-10-22 16:59:09,250 - __main__ - INFO - Analysis completed, moving to analysis stage
+2025-10-22 16:59:09,292 - __main__ - INFO - Using OpenAI v1.0+ client
+2025-10-22 16:59:09,293 - __main__ - INFO - Application started - OpenAI API key configured
