@@ -423,6 +423,9 @@ async def analyze_document_with_openai(document_text, document_id):
             
             # Parse JSON
             parsed_result = json.loads(result)
+            if "priority" in parsed_result and isinstance(parsed_result["priority"], str):
+                parsed_result["priority"] = parsed_result["priority"].lower()
+                
             logger.info(f"Document analysis completed successfully with {model}")
             
             # Add document_id and model used
